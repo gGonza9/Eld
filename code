@@ -1,0 +1,12 @@
+function preguntarPagarCena() {
+    var respuesta = prompt("¿Eri gei? (si/no)");
+    
+   
+    while (respuesta.toLowerCase() !== "si") {
+        respuesta = prompt("¿Eri gei? (si/no)");
+    }
+
+    alert("¡JAAAAAAAAAA YO SABIAAAA!");
+}
+
+preguntarPagarCena();
